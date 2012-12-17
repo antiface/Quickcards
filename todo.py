@@ -15,7 +15,7 @@
 # 
 # Basically, you have Cards, Collections of Cards, the Content of Cards, and References
 # between Cards. The Card itself is a dictionary in Python, but could be a bit of JSON.
-#
+# Simply put, Cards are Nodes in a network. This is very hypertextual.
 #
 #
 #
