@@ -1,3 +1,1 @@
-# How does it work?
-
-Enter Text in Markdown format.
+# I will be listing events, functions, DOM elements I want to deal with in the specification of my cardbox system.
