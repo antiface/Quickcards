@@ -6,8 +6,8 @@
 # class Event(object), class CollectionStartEvent(NodeEvent),
 # node, edge, anchor, token/tag, refcard, log_file. See: Gitmarks
 #
-# Classes/Entities
-# card/node, cardID, collectionID, cardReferences, cardElements
+# Classes/Entities...
+# card/node, cardID, collectionID, cardReferences, cardElements, cardType,
 #
 #
 #
