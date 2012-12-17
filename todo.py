@@ -11,10 +11,10 @@
 # class Event(object), class CollectionStartEvent(NodeEvent),
 # node, edge, anchor, token/tag, refcard, log_file. See: Gitmarks
 #
-# Classes/Entities...
-# card/node, cardID, collectionID, cardReferences, cardElements, cardType,
-#
-#
+# Classes/Entities, Events
+# 
+# Basically, you have Cards, Collections of Cards, the Content of Cards, and References
+# between Cards. The Card itself is a dictionary in Python, but could be a bit of JSON.
 #
 #
 #
