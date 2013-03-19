@@ -1,4 +1,5 @@
 class Card(object):
+"""A class representing the card structure."""
 
 def __init__(self,
                created_at=None,
@@ -9,7 +10,7 @@ def __init__(self,
                urls=None,
                hashtags=None,
                place=None,
-               contributors=None,
+               contributors=None):
                
     """An object to hold card contents.
     
