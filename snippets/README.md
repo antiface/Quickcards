@@ -1,1 +1,1 @@
-This folder contains snippets of code taken from various sources online. I will try my best to link directly to the sources. This is a work in progress.
+This folder contains snippets of code taken from various sources online. I will try my best to link directly to the sources. This is a work in progress. For now the MyHDL examples are from this [Introduction to MyHDL] (http://www.myhdl.org/doc/current/manual/intro.html)
