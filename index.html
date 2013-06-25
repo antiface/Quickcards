@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Quickcards by antiface</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/antiface/Quickcards">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/antiface/Quickcards/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/antiface/Quickcards/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Quickcards</h1>
+          <p>Card Catalog 2.0</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/antiface">antiface</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="quickcards" class="anchor" href="#quickcards"><span class="octicon octicon-link"></span></a>Quickcards</h1>
+
+<p>What is this quickcards repository you wonder? Why did I call it quickcards, and why did I choose to create a repository that seemingly has no code?</p>
+
+<p>The term quickcards actually comes from an old piece of software called <a href="http://en.wikipedia.org/wiki/Zoomracks">Zoomracks</a>. Zoomracks was a database management system for the Atari ST and IBM PC that represented data in a form that was visually represented by a filing card, known as "QUICKCARD"s.</p>
+
+<p>Basically, what I want to do is write software that is as minimalistic as possible. I don't just want to go for elegance and readability: I want to go for code that is the absolute minimum it needs to be to "get stuff done".</p>
+
+<p>Firstly, I want to look at a few things: I want to rewrite a kind of <a href="http://en.wikipedia.org/wiki/Hypercard">Hypercard</a> system in Python; I want it to be loosely based on the simplest <a href="http://en.wikipedia.org/wiki/Flat_file_database">flat file database</a> possible, loosely based also on the simplest blog platform possible, + loosely based on the simplest wiki implementation possible. All in Python. (Possible inspiration: <a href="https://github.com/WardCunningham/Smallest-Federated-Wiki">Smallest Federated Wiki</a>, <a href="http://www.cardbox.com/">Cardbox</a>).</p>
+
+<p>The paradigm is inspired largely by the work of <a href="http://en.wikipedia.org/wiki/Paul_Otlet">Paul Otlet</a>, with his Mundaneum + Universal Decimal Classification + Traité de Documentation, etc., as well as the work of <a href="http://en.wikipedia.org/wiki/Herman_Hollerith">Herman Hollerith</a> (i.e. the Art of Compiling Statistics, he developed a mechanical tabulator based on punched cards to rapidly tabulate statistics from millions of pieces of data, circa 1880s). Also a huge inspiration is the work of <a href="https://github.com/ginatrapani">Gina Trapani</a> (i.e. inventor of the <a href="http://todotxt.com/">todo.txt 2.0 paradigm</a> and other <a href="http://en.wikipedia.org/wiki/Lifehack">Lifehacks</a>).</p>
+
+<p>Basically, I want to write the simplest Python program possible to deal with .txt files at first, until I write the functions to store the contents of the "Cards" in lists and hash tables. I am using the metaphor of the Index Card. Basically, a Card is composed of a given number of lines of text. The lines of text are about entities, objects, and are references to other entities, objects. The Cards are hyperlinked and form a network-of-cards. That's how I am seeing it for now. More to come. Still in conceptual modeling phase.</p>
+
+<p>The design philosophy is simple. Software is Text. There is little difference between a Python program written in the 21st century and a clay tablet made 5000 years ago. Both are Texts. In one case, one uses a stylus to make marks on the clay tablet. In the other, one uses a keyboard or touchscreen to input text into a text editor, displayed on a monitor, etc. The point is that both use character sets to make lines of text. One could imagine someone using clay tablets to write software; one would just need to scan the clay tablet and use Optical Character Recognition to make the content machine-readable. So basically I am reinventing the library card catalog, version 3.0, inspired by Herman Hollerich, Paul Otlet and Gina Trapani.</p>
+
+<p>One implementation of the "quickcards" idea would be a simple <a href="http://www.kottke.org/05/10/tumblelogs">tumbleblog</a> platform that displays index cards in a <a href="http://www.queness.com/post/11133/the-famous-pinterest-dynamic-grid-layout-and-design-inspirations">dynamic grid layout</a> similar to how boards and pins are displayed on Pinterest. Index cards would be tagged and categorized and would be searchable using a simple faceted search interface. (Perhaps with advanced tag filtering à la <a href="http://luis-almeida.github.com/filtrify/">Filtrify</a> or dynamic html tree view controls à la <a href="http://luis-almeida.github.com/filtrify/">dynatree</a>).</p>
+
+<p>In other words, it would be a simple card catalog. I'd like it to have something like the Redis Data Structure Store or just a simple key-value store. I will take a look at MongoDB and Hyperdex, as well as Tokyo Cabinet, Kyoto Cabinet, PostgreSQL, and SQLite to see what is best, but I'm very far away from such considerations at the moment. This is just a toy problem I want to play with, the idea of a cloud-based super-hypermedia card catalog. The vision is closer to the vision of Otlet's Mundaneum than the vision of the WWW. I want it to be a masterpiece of the Inter-Referential Database Arts.</p>
+
+<p>I'm not even sure what I want to build yet. All I know is that I want it to be very fast. <a href="http://www.fetchnotes.com/">Fetchnotes</a> is a wonderful note-taking service. Possibly the thing I love the most about it though is how responsive and fast it is. I really don't know how they made it so fast. It is amazing.</p>
+
+<p>Other services I've long had a fondness for are social bookmarking services. The problem is, though, that they are full of problems. Either they are buggy or too slow, or they lack useful features (read: necessary features non-existent). It's almost as though most people in the KM or Knowledge Management field are not always the best software developers and great software developers are not always the most well-read in terms of KM practises, esp. the knowledge management problems knowledge workers encounter on a day-to-day basis. <img class="emoji" title=":relaxed:" alt=":relaxed:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/relaxed.png" height="20" width="20" align="absmiddle"></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
