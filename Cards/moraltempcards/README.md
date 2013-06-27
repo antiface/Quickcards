@@ -13,9 +13,3 @@ My rationale was that if I could obtain enough “moral temperature readings” 
 It turns out that the mean moral temperature in this world is LUKEWARM. Now I see that Twitter is the perfect place to do my moral temperature readings, for millions of people from every corner of the earth is intentionally publishing a close equivalent to my moraltemp cards (a.k.a. MoralTempCards).
 
 So now all I have to do is check my Twitter Feed and I get a reading of the moral climate in which human souls are basking or bathing. And so I can know what themes people are passionate about or occupied by. As an artist, as a creator of cultural artefacts, as a renewer of cultural values.. with my thumb on the pulse of the world, the possibilities are limitless.
-
-Whilst people are worried about businesses and “third parties” obtaining their personal information to better customize either advertisements or products and services, to better suit the needs of the customer / user.. well, whilst people are worried about others capitalizing on their ever-so-valuable private information, etc., I’m capitalizing on the world economy of symbols and signs, feelings and sentiments, thoughts, activities, updates, ponderings.. and I’m going to be the next Picasso / Dali, so to speak.
-
-I’m not just going to customize some product or service.. I’m going to move you and move you big time. You’re going to fall in love with me and my artistic expression. You will wonder how it is possible for some lonely everyday workaday Canadian man to write and paint and create music that is so powerfully SELF-EVIDENT. You’ll begin to believe that you’ve “heard” my music SOMEWHERE.. that you’ve “read” my writing at some time before now.. and really it’s just me being a Mesmerist, reflecting YOUR UPDATES back to you in a more or less aesthetic formulation.
-
-For I am an Alchemist, I cannot hide the fact. And you will love me. Amen. (Notice: Tongue-in-Cheek not included).
