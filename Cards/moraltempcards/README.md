@@ -3,8 +3,8 @@ The MoralTempCard
 Before I knew of the existence of Twitter, a year or two back, I wrote a letter to my closest friend about what I then called the moraltemp card. I wrote to him and asked him to please send me as many moraltemp cards as he could. The following is what a moraltemp card consists of:
 
 1. Time-Date-Location.
-2. Situation / Context.
-and 3. A list of at least three adjectives (qualifying the situation).
+2. Situation / Context. AND
+3. 3. A list of at least three adjectives (qualifying the situation).
 
 The basis for my idea of the moraltemp card came from Hippolyte Taine’s conception of “Moral Climate” or “Moral Temperature” i.e. the moral climate of a given milieu which gives rise to a certain type of artist. Hippolyte Taine believed, it appears, that an artist was tied to the milieu which gave birth to him, and that different milieux or “moral climates” gave birth to different kinds of artists.
 
