@@ -15,3 +15,5 @@ def qualiaFunc():
 	return adict
  
 adict = qualiaFunc()
+
+print x
