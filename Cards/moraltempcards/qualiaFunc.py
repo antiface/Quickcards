@@ -3,7 +3,7 @@ qualia = []
 adict = {}
  
 def qualiaFunc():
-  adict = {'situation':{'date': time.asctime(),
+	adict = {'situation':{'date': time.asctime(),
 'place': raw_input("Where are you?: "), 'context': raw_input("What is the current Context?: ")}}
 	def setQualia():
 		for i in range(3):
