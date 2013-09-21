@@ -10,4 +10,7 @@ Cards
 
 ##Structure
 
-* 
+* Cards are lightweight
+* Cards are small containers
+* Cards are efficient
+* Cards can be transmitted over the network
