@@ -8,14 +8,14 @@ Cards
 * Cards are small collections
 * Cards can be viewed, organized, sorted, ordered, in many ways
 
-##Structure
+## Structure
 
 * Cards are lightweight
 * Cards are small containers
 * Cards are efficient
 * Cards can be transmitted over the network
 
-##References
+## References
 
 * Cards contain references to other Cards
 * References are mutual, bidirectional
@@ -24,7 +24,7 @@ Cards
 * Cards are small bundles of relations, of strings of text
 * Cards are entirely made up of strings of characters
 
-##Quickcards
+## Quickcards
 
 * Quickcards is text-based, not visual
 * Visualization occurs intuitively in the user's mind
