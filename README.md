@@ -1,4 +1,4 @@
-quickcards ![](https://zenodo.org/badge/doi/10.5281/zenodo.9872.png)
+quickcards [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.9872.svg)](https://doi.org/10.5281/zenodo.9872)
 ==========
 
 What is this quickcards repository you wonder? Why did I call it quickcards, and why did I choose to create a repository that seemingly has no code?
